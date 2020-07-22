@@ -6,6 +6,7 @@ public class Person {
     private String phone;
     private String email;
     private String age;
+    private Hair hair;
 
     public String getName() {
         return name;
@@ -45,6 +46,14 @@ public class Person {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public Hair getHair() {
+        return hair;
+    }
+
+    public void setHair(Hair hair) {
+        this.hair = hair;
     }
 
 }
