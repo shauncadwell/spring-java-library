@@ -56,4 +56,20 @@ public class Person {
         this.hair = hair;
     }
 
+    public Person(String name, String address, String phone, String email, String age, Hair hair) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+        this.email = email;
+        this.age = age;
+        this.hair = hair;
+    }
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public Person() {
+    }
+
 }
